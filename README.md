@@ -1,25 +1,59 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 📝 Rails + React To-Do List App
 
-Things you may want to cover:
+A simple and elegant full-stack To-Do List application built with **Ruby on Rails (API-only)** and a **React.js frontend**. Users can create, update, complete, and delete their daily tasks in a responsive and fast interface.
 
-* Ruby version
+---
 
-* System dependencies
+## 🚀 Features
 
-* Configuration
+- ✅ Add, edit, and delete tasks
+- 📌 Mark tasks as completed or active
+- 📆 Track task creation dates
+- ⚡ Fast and responsive UI built with React
+- 🔗 RESTful API powered by Ruby on Rails
+- 🐳 Containerized with Docker for easy development and deployment
+- 🧪 Tested backend with RSpec
 
-* Database creation
+---
 
-* Database initialization
+## 🛠️ Tech Stack
 
-* How to run the test suite
+**Frontend:**
 
-* Services (job queues, cache servers, search engines, etc.)
+- React.js
+- Axios
+- Bootstrap or Tailwind (optional for styling)
 
-* Deployment instructions
+**Backend:**
 
-* ...
+- Ruby on Rails (API-only)
+- PostgreSQL
+- RSpec for testing
+- CORS enabled for frontend/backend communication
+
+**DevOps:**
+
+- Docker
+- Git & GitHub
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone git@github.com:anabraier/railsruby.git
+cd railsruby
+
 # railsruby
+** Start the backend:**
+
+cd backend
+bundle install
+rails db:create db:migrate db:seed
+rails server
+
+```
